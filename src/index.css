@@ -25,3 +25,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Yesky-style centered layout */
+.max-w-1200 {
+  max-width: 1200px;
+}
