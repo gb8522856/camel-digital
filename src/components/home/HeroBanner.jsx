@@ -8,21 +8,21 @@ const slides = [
     subtitle: '骆驼数码配件',
     desc: '安全、便捷、高性价比的数码配件',
     bg: 'from-primary to-blue-800',
-    image: 'https://pimages1.tianjimedia.com/resources/product/20230911/2856Y6H8G4AU0083GRV9K3N56206O53K.jpg',
+    image: 'https://picsum.photos/seed/slide1/600/400',
   },
   {
     title: '氮化镓快充',
     subtitle: '小体积大能量',
     desc: '65W三口输出，出行必备',
     bg: 'from-gray-800 to-gray-900',
-    image: 'https://pimages1.tianjimedia.com/resources/product/20230914/SVTPB128VKRV3XA3ZWKD86K19WJA93JB.jpg',
+    image: 'https://picsum.photos/seed/slide2/600/400',
   },
   {
     title: '真无线耳机',
     subtitle: '自由无束缚',
     desc: '主动降噪，30小时续航',
     bg: 'from-gold to-yellow-700',
-    image: 'https://pimages1.tianjimedia.com/resources/product/20221125/MU40OAX0X531SZN8D94B96ASFJ6KKTK0.jpg',
+    image: 'https://picsum.photos/seed/slide3/600/400',
   },
 ];
 
@@ -65,7 +65,7 @@ export default function HeroBanner() {
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-[300px] object-contain rounded shadow-lg"
+                  className="w-full h-[300px] object-cover rounded shadow-lg"
                 />
               </div>
             </div>
