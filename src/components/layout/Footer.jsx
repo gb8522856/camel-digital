@@ -8,9 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-3 justify-center md:justify-start">
-              <div className="w-9 h-9 bg-primary rounded flex items-center justify-center">
-                <span className="text-white font-bold text-base">骆</span>
-              </div>
+              <img 
+                src="/camel-logo.png" 
+                alt="骆驼配件" 
+                className="h-9 w-9 object-contain"
+              />
               <div>
                 <div className="font-bold text-sm text-white">骆驼配件</div>
                 <div className="text-gold text-[10px]">质量保证</div>
