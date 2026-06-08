@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  <ellipse cx="200" cy="195" rx="58" ry="88" fill="#4a5568"/>
+  <ellipse cx="200" cy="195" rx="53" ry="83" fill="#2d3748"/>
+  <line x1="200" y1="118" x2="200" y2="175" stroke="#718096" stroke-width="1.5"/>
+  <rect x="190" y="125" width="20" height="32" rx="10" fill="#718096"/>
+  <circle cx="200" cy="140" r="4" fill="#a0aec0"/>
+  <circle cx="170" cy="180" r="3" fill="#718096"/>
+  <circle cx="230" cy="180" r="3" fill="#718096"/>
+  <text x="200" y="320" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#666">Wireless Silent Mouse</text>
+  <text x="200" y="340" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#999">2.4G / 1600DPI</text>
+</svg>

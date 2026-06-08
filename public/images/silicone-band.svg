@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  <rect x="172" y="40" width="56" height="280" rx="28" fill="#48bb78"/>
+  <rect x="177" y="45" width="46" height="270" rx="23" fill="#38a169"/>
+  <circle cx="200" cy="90" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="112" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="134" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="156" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="178" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="200" r="7" fill="#2f855a"/>
+  <circle cx="200" cy="222" r="7" fill="#2f855a"/>
+  <text x="200" y="350" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#666">Liquid Silicone Sport</text>
+  <text x="200" y="370" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#999">Breathable / Multi-Color</text>
+</svg>
