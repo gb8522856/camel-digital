@@ -21,27 +21,29 @@ export default function Header() {
   return (
     <header className="bg-dark sticky top-0 z-50">
       <div className="max-w-[1200px] mx-auto px-4">
-        <div className="flex items-center justify-between h-14">
-          <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-            <img 
-              src="/camel-logo.png" 
-              alt="骆驼配件" 
-              className="h-10 w-10 object-contain"
-            />
+        <div className="flex items-center justify-between h-16">
+          <Link to="/" className="flex items-center gap-3 flex-shrink-0">
+            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden">
+              <img 
+                src="/camel-logo.png" 
+                alt="骆驼配件" 
+                className="w-10 h-10 object-contain"
+              />
+            </div>
             <div className="flex flex-col">
-              <span className="text-white font-bold text-sm leading-tight">骆驼配件</span>
-              <span className="text-gold text-[10px] leading-tight">质量保证</span>
+              <span className="text-white font-bold text-lg leading-tight">骆驼配件</span>
+              <span className="text-gold text-xs leading-tight">质量保证</span>
             </div>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-base font-medium transition-colors ${
                   isActive(item.path)
-                    ? 'text-white border-b-2 border-gold pb-0.5'
+                    ? 'text-white border-b-2 border-gold pb-1'
                     : 'text-gray-300 hover:text-white'
                 }`}
               >
@@ -50,30 +52,30 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <Link
               to="/products"
-              className="p-1.5 text-gray-300 hover:text-white transition-colors"
+              className="p-2 text-gray-300 hover:text-white transition-colors"
             >
-              <Search size={18} />
+              <Search size={22} />
             </Link>
             <button
-              className="md:hidden p-1.5 text-gray-300"
+              className="md:hidden p-2 text-gray-300"
               onClick={() => setMobileOpen(!mobileOpen)}
             >
-              {mobileOpen ? <X size={22} /> : <Menu size={22} />}
+              {mobileOpen ? <X size={26} /> : <Menu size={26} />}
             </button>
           </div>
         </div>
 
         {mobileOpen && (
-          <nav className="md:hidden pb-3 border-t border-gray-700">
+          <nav className="md:hidden pb-4 border-t border-gray-700">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 onClick={() => setMobileOpen(false)}
-                className={`block py-2.5 px-1 text-sm font-medium border-b border-gray-700 ${
+                className={`block py-3 px-2 text-base font-medium border-b border-gray-700 ${
                   isActive(item.path) ? 'text-gold' : 'text-gray-300'
                 }`}
               >
