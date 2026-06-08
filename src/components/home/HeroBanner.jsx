@@ -40,7 +40,7 @@ export default function HeroBanner() {
   const next = () => setCurrent((c) => (c + 1) % slides.length);
 
   return (
-    <div className="relative overflow-hidden h-[300px] md:h-[420px]">
+    <div className="relative overflow-hidden h-[300px] md:h-[420px] w-full">
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -49,7 +49,7 @@ export default function HeroBanner() {
           }`}
         >
           <div className={`h-full bg-gradient-to-r ${slide.bg}`}>
-            <div className="max-w-[1200px] mx-auto px-4 h-full flex items-center">
+            <div className="max-w-[1200px] mx-auto px-4 h-full flex items-center justify-center">
               <div className="flex-1 text-center">
                 <p className="text-gold font-medium mb-2 text-sm">{slide.subtitle}</p>
                 <h1 className="text-3xl md:text-4xl font-bold mb-3 text-white">{slide.title}</h1>
@@ -75,18 +75,18 @@ export default function HeroBanner() {
 
       <button
         onClick={prev}
-        className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
       >
         <ChevronLeft size={20} />
       </button>
       <button
         onClick={next}
-        className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
       >
         <ChevronRight size={20} />
       </button>
 
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {slides.map((_, i) => (
           <button
             key={i}

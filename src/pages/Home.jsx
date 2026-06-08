@@ -5,7 +5,7 @@ import WhyUs from '../components/home/WhyUs';
 
 export default function Home() {
   return (
-    <div className="bg-light">
+    <div className="bg-light w-full">
       <HeroBanner />
       <CategoryGrid />
       <FeaturedProducts />

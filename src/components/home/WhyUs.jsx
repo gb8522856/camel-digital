@@ -9,7 +9,7 @@ const advantages = [
 
 export default function WhyUs() {
   return (
-    <section className="py-10 bg-white">
+    <section className="py-10 bg-white w-full">
       <div className="max-w-[1200px] mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-xl font-bold text-dark mb-1">为什么选择我们</h2>

@@ -7,7 +7,7 @@ export default function FeaturedProducts() {
   const featured = products.filter((p) => p.featured).slice(0, 8);
 
   return (
-    <section className="py-10 bg-light">
+    <section className="py-10 bg-light w-full">
       <div className="max-w-[1200px] mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-xl font-bold text-dark mb-1">热门产品</h2>

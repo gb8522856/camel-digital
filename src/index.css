@@ -26,7 +26,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Yesky-style centered layout */
-.max-w-1200 {
-  max-width: 1200px;
+/* 确保所有内容居中 */
+.w-full {
+  width: 100%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
