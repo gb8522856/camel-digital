@@ -23,16 +23,16 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3 flex-shrink-0">
-            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden">
+            <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex-shrink-0">
               <img 
                 src="/camel-logo.png" 
                 alt="骆驼配件" 
-                className="w-10 h-10 object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg leading-tight">骆驼配件</span>
-              <span className="text-gold text-xs leading-tight">质量保证</span>
+              <span className="text-gold text-sm leading-tight">质量保证</span>
             </div>
           </Link>
 

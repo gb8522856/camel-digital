@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4 justify-center md:justify-start">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden">
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex-shrink-0">
                 <img 
                   src="/camel-logo.png" 
                   alt="骆驼配件" 
-                  className="w-10 h-10 object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div>
